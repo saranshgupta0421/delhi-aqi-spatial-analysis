@@ -11,7 +11,7 @@ This project analyzes how PM2.5 concentrations vary by season and correlate with
  
 - Winter PM2.5 averaged **109.28 µg/m³**, compared to **63.58 µg/m³** in monsoon — a **1.72x** difference.
 - PM2.5 showed a **negative, weak** correlation with wind speed **within each season** (pooled correlation across seasons was avoided as it conflates seasonal and physical effects — see Methodology).
-- **Northern stations**(Anand Vihar,Connaught Place,Rohini) consistently recorded the highest average PM2.5 (**443.3**), likely due to **proximity to traffic corridor and dry season in summer**.
+- **Northern stations**(Anand Vihar,Connaught Place,Rohini) consistently recorded the max PM2.5 (**443.3**), likely due to **proximity to traffic corridor and dry season in summer**.
 - Built a **linear regression model** (temperature, humidity, wind speed, pressure → PM2.5); weather variables jointly explained only ~17% of variance (R² = 0.174), with temperature the strongest single predictor — indicating non-meteorological sources (traffic, construction, crop-residue burning) are the dominant drivers of Delhi's PM2.5, not weather alone.
 ## Data Source
  
